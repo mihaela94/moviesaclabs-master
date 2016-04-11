@@ -104,7 +104,10 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="Index.html" />
+    <Content Include="lab3.html" />
+    <Content Include="Scripts\jquery-1.12.3.js" />
     <Content Include="Scripts\Main.js" />
+    <Content Include="Scripts\lab3.js" />
     <Content Include="Styles\Screen.css" />
     <Content Include="Web.config" />
   </ItemGroup>
