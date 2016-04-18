@@ -1,2 +1,12 @@
-﻿body {
+﻿#bullet_points{
+    //display: inline;
+    list-style: none;
 }
+
+#bullet_points li{
+    float: left;
+    display: inline;
+    padding: 2px;
+}
+
+//http://stackoverflow.com/questions/24407796/positioning-vertically-center-aligned-navigation-arrows-to-the-left-and-right-of

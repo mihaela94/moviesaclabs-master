@@ -37,3 +37,42 @@ C:\Users\softv\Documents\Visual Studio 2015\Projects\moviesaclabs-master\MoviesA
 C:\Users\softv\Documents\Visual Studio 2015\Projects\moviesaclabs-master\MoviesACLabs\obj\Debug\MoviesACLabs.csproj.GenerateResource.Cache
 C:\Users\softv\Documents\Visual Studio 2015\Projects\moviesaclabs-master\MoviesACLabs\obj\Debug\MoviesACLabs.dll
 C:\Users\softv\Documents\Visual Studio 2015\Projects\moviesaclabs-master\MoviesACLabs\obj\Debug\MoviesACLabs.pdb
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\roslyn\csc.exe
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\roslyn\System.Collections.Immutable.dll
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\roslyn\System.Reflection.Metadata.dll
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\roslyn\vbc.exe
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\roslyn\VBCSCompiler.exe
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\roslyn\VBCSCompiler.exe.config
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\MoviesACLabs.dll.config
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\MoviesACLabs.dll
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\MoviesACLabs.pdb
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\AutoMapper.dll
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\EntityFramework.dll
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\EntityFramework.SqlServer.dll
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\Microsoft.Web.Infrastructure.dll
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\Newtonsoft.Json.dll
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\Swashbuckle.Core.dll
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\System.Net.Http.Formatting.dll
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.Http.dll
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.Http.WebHost.dll
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\WebActivatorEx.dll
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\AutoMapper.xml
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\EntityFramework.xml
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\EntityFramework.SqlServer.xml
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\Newtonsoft.Json.xml
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\System.Net.Http.Formatting.xml
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.Http.xml
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.Http.WebHost.xml
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\obj\Debug\MoviesACLabs.csprojResolveAssemblyReference.cache
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\obj\Debug\MoviesACLabs.Migrations.Initial.resources
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\obj\Debug\MoviesACLabs.csproj.GenerateResource.Cache
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\obj\Debug\MoviesACLabs.dll
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\obj\Debug\MoviesACLabs.pdb
