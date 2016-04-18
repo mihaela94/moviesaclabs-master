@@ -104,6 +104,7 @@
   <ItemGroup>
     <Content Include="ass3.html" />
     <Content Include="Global.asax" />
+    <Content Include="lab4.html" />
     <Content Include="images\arrow-left.png" />
     <Content Include="images\arrow-right.png" />
     <Content Include="images\dot_active.png" />
@@ -113,6 +114,7 @@
     <Content Include="Scripts\ass3.js" />
     <Content Include="Scripts\jquery-1.12.3.js" />
     <Content Include="Scripts\jquery-ui.js" />
+    <Content Include="Scripts\lab4.js" />
     <Content Include="Scripts\Main.js" />
     <Content Include="Scripts\lab3.js" />
     <Content Include="Styles\Screen.css" />

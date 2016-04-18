@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html ng-app="todo">
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body ng-controller="todoCtrl">
+    <input type="text" id="newTaskInput" ng-model="newItem" ng-keypress="addTaskEnter($event)"/>
+    <input type="button" id="submitNewItem" ng-click="addTask()" value="Add new task" />
+    <br/>
+    <ul>
+        <li ng-repeat="task in list">
+            <input type="checkbox" ng-click="check(task)"/>
+            {{task}}
+            <!--<input type="button" value="X" ng-click="delete()"/>-->
+        </li>
+    </ul>
+    <br/>
+    No. tasks: {{list.length}} | Unfinished tasks: {{list.length - finishedTasks.length}} | Finished tasks: {{finishedTasks.length}}
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+    <script src="Scripts/lab4.js"></script>
+</body>
+</html>
