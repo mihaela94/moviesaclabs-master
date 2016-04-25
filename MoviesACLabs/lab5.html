@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html ng-app="moviesApp">
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+</head>
+<body ng-controller="MoviesCtrl">
+    <!--<input type="text" id="newTaskInput" ng-model="newItem" ng-keypress="addTaskEnter($event)" />-->
+    <!--<input type="button" id="submitNewItem" ng-click="addTask()" value="Add new task" />-->
+    Enter a new actor: <br/>
+    <form>
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" id="newName" ng-model="newActor.Name" value="Marilyn Monroe" /></td>
+            </tr>
+            <tr>
+                <td>Date of birth:</td>
+                <td><input type="text" id="newDateOfBirth" ng-model="newActor.DateOfBirth" value="YYYY-MM-DD" /></td>
+            </tr>
+            <tr>
+                <td>Revenue:</td>
+                <td><input type="text" id="newRevenue" ng-model="newActor.Revenue" value="999999992" /></td>
+            </tr>
+        </table>
+        <input type="button" id="submit" ng-click="submit()" ng-model="buttonText" value="{{buttonState.text}}" /> <br />
+    </form>
+    <br />
+    <table>
+        <thead>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Date of birth</th>
+            <th>Revenue</th>
+        </thead>
+        <tbody>
+            <tr ng-repeat="actor in actorsList" ng-click="selectActor(actor)">
+                <td>{{actor.Id}}</td>
+                <td>{{actor.Name}}</td>
+                <td>{{actor.DateOfBirth}}</td>
+                <td>{{actor.Revenue}}</td>
+            </tr>
+        </tbody>
+    </table>
+        
+            <!--<input type="checkbox" ng-click="check(task)" />-->
+      
+            <!--<input type="button" value="X" ng-click="delete()"/>-->
+       
+    <!--<br />-->
+    <!--No. tasks: {{list.length}} | Unfinished tasks: {{list.length - finishedTasks.length}} | Finished tasks: {{finishedTasks.length}}-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+    <script src="Scripts/lab5.js"></script>
+</body>
+</html>

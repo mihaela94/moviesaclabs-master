@@ -111,10 +111,12 @@
     <Content Include="images\dot_inactive.png" />
     <Content Include="Index.html" />
     <Content Include="lab3.html" />
+    <Content Include="lab5.html" />
     <Content Include="Scripts\ass3.js" />
     <Content Include="Scripts\jquery-1.12.3.js" />
     <Content Include="Scripts\jquery-ui.js" />
     <Content Include="Scripts\lab4.js" />
+    <Content Include="Scripts\lab5.js" />
     <Content Include="Scripts\Main.js" />
     <Content Include="Scripts\lab3.js" />
     <Content Include="Styles\Screen.css" />
