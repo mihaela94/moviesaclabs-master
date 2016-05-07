@@ -11,6 +11,7 @@ app.service("MoviesService", function ($http) {
     }
 
     this.addNewActor = function (newActor, callbackSuccess, callbackError) {
+        console.log(newActor);
         $http({
             method: "POST",
             url: "/api/actors",
@@ -24,21 +25,29 @@ app.service("MoviesService", function ($http) {
         $http({
             method: "PUT",
             url: "/api/actors/" + actor.Id,
-            data: id, actor
+            data: actor
         }).then(function (data) {
             callbackSuccess(data.data)
-        }, function (data) { callbackError(data.data) });
+        }, function (data) {
+            callbackError(data.data)
+        });
+    }
+
+    this.deleteActor = function (id, callbackSuccess, callbackError) {
+        $http({
+            method: "DELETE",
+            url: "/api/actors/" + id
+        }).then(function (data) {
+            callbackSuccess(data.data)
+        }, function (data) {
+            callbackError(data.data)
+        });
     }
 });
 
 app.controller('MoviesCtrl', function ($scope, MoviesService) {
-    $scope.addActorState = { text: 'Add new actor', action: $scope.addNewActor };
-    $scope.updateActorState = { text: 'Edit actor', action: $scope.updateActor };
 
-    $scope.actorsList = null;
-    $scope.newActor = null;
-    $scope.buttonState = $scope.addActorState;
-
+    // Success and error callbacks.
     var succ = function (dataResponse) {
         $scope.actorsList = dataResponse;
     }
@@ -52,27 +61,45 @@ app.controller('MoviesCtrl', function ($scope, MoviesService) {
         $scope.newActor = null;
     }
 
-    var succUpd = function () {
+    var succUpdDel = function () {
         MoviesService.getActors(succ, err);
     }
-    
+
     $scope.addNewActor = function () {
         MoviesService.addNewActor($scope.newActor, succAdd, err);
     }
 
     $scope.updateActor = function () {
-        MoviesService.updateActor($scope.newActor, succUpd, err);
+        MoviesService.updateActor($scope.newActor, succUpdDel, err);
         $scope.buttonState = $scope.addActorState;
     }
 
+    $scope.addActorState = { text: 'Add new actor', action: $scope.addNewActor };
+    $scope.updateActorState = { text: 'Edit actor', action: $scope.updateActor };
+
+    $scope.buttonState = $scope.addActorState;
+    $scope.actorsList = null;
+    $scope.newActor = { Id: 0, Name: null, DateOfBirth: null, Revenue: null };
+    $scope.actorNameSearch = '';
+    
     $scope.submit = function () {
-        console.log(typeof ($scope.buttonState.action));
+        //debug
+        //console.log(typeof ($scope.buttonState.action));
         $scope.buttonState.action();
+        $scope.buttonState = $scope.addActorState;
     }
 
     $scope.selectActor = function (actor) {
-        $scope.newActor = actor;
+        //deep cloning
+        $scope.newActor.Id = actor.Id;
+        $scope.newActor.Name = actor.Name;
+        $scope.newActor.DateOfBirth = actor.DateOfBirth;
+        $scope.newActor.Revenue = actor.Revenue;
         $scope.buttonState = $scope.updateActorState;
+    }
+
+    $scope.delete = function (id) {
+        MoviesService.deleteActor(id, succUpdDel, err);
     }
 
     MoviesService.getActors(succ, err);

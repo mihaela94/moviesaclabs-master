@@ -5,50 +5,57 @@
     <meta charset="utf-8" />
 </head>
 <body ng-controller="MoviesCtrl">
-    <!--<input type="text" id="newTaskInput" ng-model="newItem" ng-keypress="addTaskEnter($event)" />-->
-    <!--<input type="button" id="submitNewItem" ng-click="addTask()" value="Add new task" />-->
-    Enter a new actor: <br/>
-    <form>
+    <h1> Registered actors</h1>
+
+    <div id="actorsTable" style="float:left; margin: 10px;">
         <table>
-            <tr>
-                <td>Name:</td>
-                <td><input type="text" id="newName" ng-model="newActor.Name" value="Marilyn Monroe" /></td>
-            </tr>
-            <tr>
-                <td>Date of birth:</td>
-                <td><input type="text" id="newDateOfBirth" ng-model="newActor.DateOfBirth" value="YYYY-MM-DD" /></td>
-            </tr>
-            <tr>
-                <td>Revenue:</td>
-                <td><input type="text" id="newRevenue" ng-model="newActor.Revenue" value="999999992" /></td>
+            <tr style="margin: 5px;">
+                <td>Search:</td>
+                <td><input type="text" id="actorName" ng-model="actorNameSearch" /></td>
             </tr>
         </table>
-        <input type="button" id="submit" ng-click="submit()" ng-model="buttonText" value="{{buttonState.text}}" /> <br />
-    </form>
-    <br />
-    <table>
-        <thead>
-            <th>Id</th>
-            <th>Name</th>
-            <th>Date of birth</th>
-            <th>Revenue</th>
-        </thead>
-        <tbody>
-            <tr ng-repeat="actor in actorsList" ng-click="selectActor(actor)">
-                <td>{{actor.Id}}</td>
-                <td>{{actor.Name}}</td>
-                <td>{{actor.DateOfBirth}}</td>
-                <td>{{actor.Revenue}}</td>
-            </tr>
-        </tbody>
-    </table>
-        
-            <!--<input type="checkbox" ng-click="check(task)" />-->
-      
-            <!--<input type="button" value="X" ng-click="delete()"/>-->
-       
-    <!--<br />-->
-    <!--No. tasks: {{list.length}} | Unfinished tasks: {{list.length - finishedTasks.length}} | Finished tasks: {{finishedTasks.length}}-->
+
+        <table>
+            <thead>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Date of birth</th>
+                <th>Revenue</th>
+            </thead>
+            <tbody>
+                <tr ng-repeat="actor in actorsList | filter:actorNameSearch as filtered">
+                    <td ng-click="selectActor(actor)"> {{actor.Id}} </td>
+                    <td ng-click="selectActor(actor)"> {{actor.Name}} </td>
+                    <td ng-click="selectActor(actor)"> {{actor.DateOfBirth}} </td>
+                    <td ng-click="selectActor(actor)"> {{actor.Revenue}} </td>
+                    <td><input type="button" id="delete" ng-click="delete(actor.Id)" value="Delete" /></td>
+                </tr>
+            </tbody>
+        </table>
+        <br/>
+        Showing {{filtered.length}} actors out of {{actorsList.length}}.
+    </div>
+
+    <div id="editActor" style="float:left; margin: 10px 15px 10px 50px">
+        <b>Add/Edit actor</b> <br /><br/>
+        <form>
+            <table>
+                <tr style="margin: 5px;">
+                    <td>Name:</td>
+                    <td><input type="text" id="newName" ng-model="newActor.Name" /></td>
+                </tr>
+                <tr style="margin: 5px;">
+                    <td>Date of birth:</td>
+                    <td><input type="text" id="newDateOfBirth" ng-model="newActor.DateOfBirth" /></td>
+                </tr>
+                <tr style="margin: 5px;">
+                    <td>Revenue:</td>
+                    <td><input type="text" id="newRevenue" ng-model="newActor.Revenue" /></td>
+                </tr>
+            </table>
+            <input type="button" id="submit" ng-click="submit()" value="{{buttonState.text}}" /> <br />
+        </form>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
     <script src="Scripts/lab5.js"></script>
