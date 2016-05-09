@@ -76,3 +76,20 @@ D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\obj\Debug\Mov
 D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\obj\Debug\MoviesACLabs.csproj.GenerateResource.Cache
 D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\obj\Debug\MoviesACLabs.dll
 D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\obj\Debug\MoviesACLabs.pdb
+C:\Users\softv\Documents\Visual Studio 2015\Projects\moviesaclabs-master\MoviesACLabs\bin\Antlr3.Runtime.dll
+C:\Users\softv\Documents\Visual Studio 2015\Projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.Helpers.dll
+C:\Users\softv\Documents\Visual Studio 2015\Projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.Mvc.dll
+C:\Users\softv\Documents\Visual Studio 2015\Projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.Optimization.dll
+C:\Users\softv\Documents\Visual Studio 2015\Projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.Razor.dll
+C:\Users\softv\Documents\Visual Studio 2015\Projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.WebPages.Deployment.dll
+C:\Users\softv\Documents\Visual Studio 2015\Projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.WebPages.dll
+C:\Users\softv\Documents\Visual Studio 2015\Projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.WebPages.Razor.dll
+C:\Users\softv\Documents\Visual Studio 2015\Projects\moviesaclabs-master\MoviesACLabs\bin\WebGrease.dll
+C:\Users\softv\Documents\Visual Studio 2015\Projects\moviesaclabs-master\MoviesACLabs\bin\Antlr3.Runtime.pdb
+C:\Users\softv\Documents\Visual Studio 2015\Projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.Helpers.xml
+C:\Users\softv\Documents\Visual Studio 2015\Projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.Mvc.xml
+C:\Users\softv\Documents\Visual Studio 2015\Projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.Optimization.xml
+C:\Users\softv\Documents\Visual Studio 2015\Projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.Razor.xml
+C:\Users\softv\Documents\Visual Studio 2015\Projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.WebPages.xml
+C:\Users\softv\Documents\Visual Studio 2015\Projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.WebPages.Deployment.xml
+C:\Users\softv\Documents\Visual Studio 2015\Projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.WebPages.Razor.xml
