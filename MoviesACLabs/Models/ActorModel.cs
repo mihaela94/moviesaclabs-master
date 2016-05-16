@@ -18,5 +18,7 @@ namespace MoviesACLabs.Models
 
         [Required]
         public int Revenue { get; set; }
+
+        public string AwardName { get; set; }
     }
 }

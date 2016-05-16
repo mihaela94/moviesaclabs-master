@@ -93,3 +93,4 @@ C:\Users\softv\Documents\Visual Studio 2015\Projects\moviesaclabs-master\MoviesA
 C:\Users\softv\Documents\Visual Studio 2015\Projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.WebPages.xml
 C:\Users\softv\Documents\Visual Studio 2015\Projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.WebPages.Deployment.xml
 C:\Users\softv\Documents\Visual Studio 2015\Projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.WebPages.Razor.xml
+C:\Users\softv\Documents\Visual Studio 2015\Projects\moviesaclabs-master\MoviesACLabs\obj\Debug\MoviesACLabs.Migrations.migration1.resources

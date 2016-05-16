@@ -42,6 +42,23 @@ namespace MoviesACLabs.Controllers
             return Ok(actorModel);
         }
 
+        [ResponseType(typeof(ActorModel))]
+        [Route("~/actorsWithLongestNameAward")]
+        public IHttpActionResult GetActorHavingAwardWithLongestName()
+        {
+            var actors = db.Actors.Include(a => a.Awards);
+            var actorsList = actors.ToList();
+
+            var x = actorsList.Select(e => new { Name = e.Name, AwardName = e.Awards.Where(a => a.AwardTitle.Length == e.Awards.Max(at => at.AwardTitle.Length)).Select(a => a.AwardTitle).FirstOrDefault()});
+
+            var actorsModel = Mapper.Map<IList<ActorModel>>(actorsList);
+            
+
+            //daca nu se gaseste nimic?
+
+            return Ok(actorsModel);
+        }
+
         // PUT: api/Actors/5
         [ResponseType(typeof(void))]
         public IHttpActionResult PutActor(int id, ActorModel actorModel)
