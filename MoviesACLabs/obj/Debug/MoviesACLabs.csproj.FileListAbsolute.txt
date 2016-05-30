@@ -94,3 +94,21 @@ C:\Users\softv\Documents\Visual Studio 2015\Projects\moviesaclabs-master\MoviesA
 C:\Users\softv\Documents\Visual Studio 2015\Projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.WebPages.Deployment.xml
 C:\Users\softv\Documents\Visual Studio 2015\Projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.WebPages.Razor.xml
 C:\Users\softv\Documents\Visual Studio 2015\Projects\moviesaclabs-master\MoviesACLabs\obj\Debug\MoviesACLabs.Migrations.migration1.resources
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\Antlr3.Runtime.dll
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.Helpers.dll
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.Mvc.dll
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.Optimization.dll
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.Razor.dll
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.WebPages.Deployment.dll
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.WebPages.dll
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.WebPages.Razor.dll
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\WebGrease.dll
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\Antlr3.Runtime.pdb
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.Helpers.xml
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.Mvc.xml
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.Optimization.xml
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.Razor.xml
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.WebPages.xml
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.WebPages.Deployment.xml
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.WebPages.Razor.xml
+D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\obj\Debug\MoviesACLabs.Migrations.migration1.resources

@@ -1,4 +1,6 @@
-﻿using System;
+﻿// ce trebuia sa rulez ca sa imi updatez baza de date?
+
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
@@ -50,7 +52,9 @@ namespace MoviesACLabs.Controllers
             var actorsList = actors.ToList();
 
             var x = actorsList.Select(e => new { Name = e.Name, AwardName = e.Awards.Where(a => a.AwardTitle.Length == e.Awards.Max(at => at.AwardTitle.Length)).Select(a => a.AwardTitle).FirstOrDefault()});
+            var y = x.ToList();
 
+            //should return y somehow; create a separate model for it
             var actorsModel = Mapper.Map<IList<ActorModel>>(actorsList);
             
 

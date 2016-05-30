@@ -1,4 +1,6 @@
-﻿var app = angular.module('moviesApp', []);
+﻿//Movies Service care e parametru in controller se poate numi si altfel sau trebuie sa pastreze exact asa cum e in denumire?
+
+var app = angular.module('moviesApp', []);
 
 app.service("MoviesService", function ($http) {
     this.getActors = function(callbackSuccess, callbackError){
