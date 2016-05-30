@@ -23,6 +23,12 @@
                 <th>Revenue</th>
             </thead>
             <tbody>
+
+                <!-- 
+                    I have an idea of how to do this, but I'm out of time. :)
+                    In the AirlineModel we should have an attribute that says how many planes it has (also a list of PlaneModels)
+                    In the filter put that condition that count > 2.
+                    -->
                 <tr ng-repeat="actor in actorsList | filter:actorNameSearch as filtered">
                     <td ng-click="selectActor(actor)"> {{actor.Id}} </td>
                     <td ng-click="selectActor(actor)"> {{actor.Name}} </td>

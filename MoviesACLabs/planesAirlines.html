@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html ng-app="planesApp">
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body ng-controller="AirlinesCtrl">
+
+    <h1> Airlines </h1>
+
+    <div id="airlinesTable" style="float:left; margin: 10px;">
+
+        <table>
+            <thead>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Country of origin</th>
+            </thead>
+            <tbody>
+                <tr ng-repeat="airline in airlinesList">
+                    <td ng-click="selectAirline(airline)"> {{airline.Id}} </td>
+                    <td ng-click="selectAirline(airline)"> {{airline.Name}} </td>
+                    <td ng-click="selectAirline(airline)"> {{airline.CountryOfOrigin}} </td>
+                    <td><input type="button" id="delete" ng-click="delete(airline.Id)" value="Delete" /></td>
+                </tr>
+            </tbody>
+        </table>
+        <!--<br />
+        Showing {{filtered.length}} airlines out of {{airlinesList.length}}. -->
+    </div>
+
+    <div id="editAirline" style="float:left; margin: 10px 15px 10px 50px">
+        <b>Add/Edit airline</b> <br /><br />
+        <form>
+            <table>
+                <tr style="margin: 5px;">
+                    <td>Name:</td>
+                    <td><input type="text" id="newName" ng-model="newAirline.Name" /></td>
+                </tr>
+                <tr style="margin: 5px;">
+                    <td>Country of origin:</td>
+                    <td><input type="text" id="newCountryOfOrigin" ng-model="newAirline.CountryOfOrigin" /></td>
+                </tr>
+            </table>
+            <input type="button" id="submit" ng-click="submit()" value="{{buttonState.text}}" /> <br />
+        </form>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+    <script src="Scripts/planes_airlines.js"></script>
+</body>
+</html>

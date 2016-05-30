@@ -1,0 +1,8 @@
+Functional testing:
+
+Test all CRUD operations for both Airlines and Planes.
+Examples: 
+	try to delete plane/airline with nonexistent ID; 
+	try to update plane/airline that does not exist;
+	if some attributes are required, try to submit requests with null values corresponding to that fields;
+	if some attributes require a certain type of data, try to input data of a different type (e.g. string instead of Date);

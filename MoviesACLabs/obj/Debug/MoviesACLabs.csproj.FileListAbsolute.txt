@@ -112,3 +112,4 @@ D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\System.We
 D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.WebPages.Deployment.xml
 D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\bin\System.Web.WebPages.Razor.xml
 D:\School\SoftVision_lab\projects\moviesaclabs-master\MoviesACLabs\obj\Debug\MoviesACLabs.Migrations.migration1.resources
+C:\Users\softv\Documents\Visual Studio 2015\Projects\moviesaclabs-master\MoviesACLabs\obj\Debug\MoviesACLabs.Migrations.PlanesAndAirlines.resources
